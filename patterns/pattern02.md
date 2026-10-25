@@ -1,0 +1,64 @@
+# Pattern 02 — Pressure redirected
+
+Group A; harmonic bars: A#, A#, A#, A#. Logical length: 64 rows. Status: complete source draft, not auditioned.
+
+First half uses c; second half uses b.
+
+Ch1 kick and half-time snare; Ch2 FilterBass; Ch3 raised SynBuz command signals; Ch4 pressure stabs, quiet hats, WoodBlock and tom fills.
+
+## Effects used here
+
+Cxx sets channel volume immediately, from `00` silence to `40` maximum. Each written note includes its instrument; its default volume is restored at the next trigger before any row effect.
+EC4 cuts that channel at tick 04 within the row; the next written trigger restores the sample default. There are no inherited slides or vibrato settings.
+
+| Row | Ch1 | Ch2 | Ch3 | Ch4 |
+| --- | --- | --- | --- | --- |
+| 00 | C-4 01 C3C | A#4 04 --- | A#4 05 C2C | A#3 06 C19 |
+| 04 | --- -- --- | --- -- --- | --- -- --- | C-4 03 C38 |
+| 06 | C-4 01 C36 | F-5 04 --- | --- -- --- | C-4 03 C40 |
+| 07 | --- -- --- | --- -- --- | D-5 05 C28 | --- -- --- |
+| 08 | C-4 02 C25 | --- -- --- | --- -- --- | --- -- --- |
+| 10 | --- -- --- | A#4 04 EC4 | --- -- --- | C-4 03 C40 |
+| 11 | C-4 01 C36 | --- -- --- | --- -- --- | --- -- --- |
+| 12 | --- -- --- | --- -- --- | --- -- --- | C-4 03 C38 |
+| 13 | --- -- --- | D-5 04 --- | --- -- --- | --- -- --- |
+| 14 | --- -- --- | --- -- --- | F-5 05 C2C | C-4 03 C40 |
+| 15 | --- -- --- | --- -- --- | --- -- --- | C-4 07 C26 |
+| 16 | C-4 01 C3C | A#4 04 --- | --- -- --- | --- -- --- |
+| 18 | --- -- --- | --- -- --- | --- -- --- | C-4 03 C40 |
+| 20 | --- -- --- | --- -- --- | --- -- --- | C-4 03 C38 |
+| 21 | C-4 01 C36 | F-5 04 --- | --- -- --- | --- -- --- |
+| 22 | --- -- --- | --- -- --- | D-5 05 C28 | C-4 03 C40 |
+| 24 | C-4 02 C25 | --- -- --- | --- -- --- | --- -- --- |
+| 26 | C-4 01 C36 | A#4 04 EC4 | --- -- --- | C-4 03 C40 |
+| 28 | --- -- --- | --- -- --- | A#4 05 C2C | C-4 03 C38 |
+| 30 | C-4 01 C36 | D-5 04 --- | --- -- --- | C-4 03 C40 |
+| 31 | --- -- --- | --- -- --- | --- -- --- | C-4 07 C26 |
+| 32 | C-4 01 C3C | A#4 04 --- | --- -- --- | A#3 06 C19 |
+| 34 | --- -- --- | --- -- --- | G-5 05 C2C | --- -- --- |
+| 36 | --- -- --- | --- -- --- | --- -- --- | C-4 03 C38 |
+| 38 | C-4 01 C36 | F-5 04 --- | --- -- --- | C-4 03 C40 |
+| 40 | C-4 02 C25 | --- -- --- | --- -- --- | --- -- --- |
+| 42 | --- -- --- | A#4 04 EC4 | D#5 05 C28 | C-4 03 C40 |
+| 43 | C-4 01 C36 | --- -- --- | --- -- --- | --- -- --- |
+| 44 | --- -- --- | --- -- --- | --- -- --- | C-4 03 C38 |
+| 45 | --- -- --- | D-5 04 --- | --- -- --- | --- -- --- |
+| 46 | --- -- --- | --- -- --- | --- -- --- | C-4 03 C40 |
+| 47 | --- -- --- | --- -- --- | --- -- --- | C-4 07 C26 |
+| 48 | C-4 01 C3C | A#4 04 --- | --- -- --- | --- -- --- |
+| 50 | --- -- --- | --- -- --- | C-5 05 C2C | C-4 03 C40 |
+| 52 | --- -- --- | --- -- --- | --- -- --- | C-4 03 C38 |
+| 53 | C-4 01 C36 | F-5 04 --- | --- -- --- | --- -- --- |
+| 54 | --- -- --- | --- -- --- | --- -- --- | C-4 03 C40 |
+| 56 | C-4 02 C25 | --- -- --- | --- -- --- | --- -- --- |
+| 58 | C-4 01 C36 | A#4 04 EC4 | A#4 05 C28 | C-4 03 C40 |
+| 60 | --- -- --- | --- -- --- | --- -- --- | C-4 03 C38 |
+| 62 | C-4 01 C36 | D-5 04 --- | --- -- --- | C-4 03 C40 |
+| 63 | --- -- --- | --- -- --- | --- -- --- | C-4 07 C26 |
+
+## Audition criteria
+
+- Listen to this entire pattern inside its complete group, then at every order-list occurrence. Check the melodic breath between the two halves, the bass response and the deliberate percussion handoffs.
+- Check each EC cut and each percussion replacement of a pitched voice for a musically acceptable edge. Notes are single-voice events; tails can be deliberately interrupted on the same channel.
+- Check balance in normal stereo and mono. The bass must remain a coherent line beneath the melodic signal, and short hats/ticks must remain audible without taking over.
+- The single snare on row 08 of each sixteen-row bar must feel deliberately heavy. Check that the longer snare tail does not sound like a loop or swamp the wood marker.

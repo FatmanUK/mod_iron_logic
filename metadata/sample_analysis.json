@@ -1,0 +1,497 @@
+[
+  {
+    "bytes": 3000,
+    "sha256": "aee032bea056f9ca34aa5b5be74ee4032db2f45eb334726da9eb8c9a3293fe12",
+    "peak": 127,
+    "rms": 25.5705755377804,
+    "dc": 0.9823333333333333,
+    "rms_quarters": [
+      41.2034140980251,
+      29.449753819005007,
+      6.6418872819904635,
+      2.5086516962969037
+    ],
+    "rail_percent": 0.0,
+    "first": 5,
+    "last": 0,
+    "spectral_peaks_at_C4": [
+      {
+        "hz": 32.498,
+        "relative": 1.0
+      },
+      {
+        "hz": 48.557,
+        "relative": 0.2971
+      },
+      {
+        "hz": 70.054,
+        "relative": 0.1497
+      },
+      {
+        "hz": 137.706,
+        "relative": 0.052
+      },
+      {
+        "hz": 126.578,
+        "relative": 0.051
+      },
+      {
+        "hz": 1750.091,
+        "relative": 0.0386
+      },
+      {
+        "hz": 1624.525,
+        "relative": 0.0372
+      },
+      {
+        "hz": 1721.26,
+        "relative": 0.037
+      }
+    ],
+    "id": "01",
+    "source": "ST-01/BassDrum2",
+    "default_volume": "3C",
+    "finetune": "00",
+    "loop": "disabled"
+  },
+  {
+    "bytes": 1900,
+    "sha256": "7a3f72d92b0a4b8b5b7774d0fcd0fe66a943935e8bb4cc2934e6beb7f2bc8306",
+    "peak": 128,
+    "rms": 46.88652033872512,
+    "dc": -1.2110526315789474,
+    "rms_quarters": [
+      77.06206657794195,
+      38.06797244818522,
+      25.99429087116509,
+      27.017538163590196
+    ],
+    "rail_percent": 2.5789473684210527,
+    "first": -30,
+    "last": -7,
+    "spectral_peaks_at_C4": [
+      {
+        "hz": 189.425,
+        "relative": 1.0
+      },
+      {
+        "hz": 174.25,
+        "relative": 0.5207
+      },
+      {
+        "hz": 204.852,
+        "relative": 0.519
+      },
+      {
+        "hz": 244.937,
+        "relative": 0.4517
+      },
+      {
+        "hz": 374.171,
+        "relative": 0.2567
+      },
+      {
+        "hz": 266.56,
+        "relative": 0.2446
+      },
+      {
+        "hz": 343.19,
+        "relative": 0.2134
+      },
+      {
+        "hz": 506.692,
+        "relative": 0.1673
+      }
+    ],
+    "id": "02",
+    "source": "ST-01/Snare2",
+    "default_volume": "25",
+    "finetune": "00",
+    "loop": "disabled"
+  },
+  {
+    "bytes": 1200,
+    "sha256": "2d84ee0c4becf41ec987ffb749c5f3f2c14885430aef9709c9c18a75b8df7795",
+    "peak": 34,
+    "rms": 5.908045362046571,
+    "dc": 0.02,
+    "rms_quarters": [
+      11.338871196022998,
+      3.248076353782343,
+      0.6708203932499369,
+      0.22360679774997896
+    ],
+    "rail_percent": 0.0,
+    "first": -7,
+    "last": 0,
+    "spectral_peaks_at_C4": [
+      {
+        "hz": 990.117,
+        "relative": 1.0
+      },
+      {
+        "hz": 4043.166,
+        "relative": 0.7663
+      },
+      {
+        "hz": 1495.544,
+        "relative": 0.6703
+      },
+      {
+        "hz": 1563.069,
+        "relative": 0.6494
+      },
+      {
+        "hz": 2182.935,
+        "relative": 0.5854
+      },
+      {
+        "hz": 945.1,
+        "relative": 0.5794
+      },
+      {
+        "hz": 2125.526,
+        "relative": 0.5462
+      },
+      {
+        "hz": 2070.141,
+        "relative": 0.5427
+      }
+    ],
+    "id": "03",
+    "source": "ST-01/CloseHiHat",
+    "default_volume": "40",
+    "finetune": "00",
+    "loop": "disabled"
+  },
+  {
+    "bytes": 5900,
+    "sha256": "b714181f5390ca9f7bfbd44b6bc80b1d52fb1fb2a1cbdf384b792299e8403ccc",
+    "peak": 128,
+    "rms": 21.604931169699608,
+    "dc": -0.01983050847457627,
+    "rms_quarters": [
+      33.8956924416908,
+      23.249494253657378,
+      12.703849676777882,
+      4.030813519268616
+    ],
+    "rail_percent": 0.01694915254237288,
+    "first": -9,
+    "last": 0,
+    "spectral_peaks_at_C4": [
+      {
+        "hz": 65.376,
+        "relative": 1.0
+      },
+      {
+        "hz": 260.743,
+        "relative": 0.5801
+      },
+      {
+        "hz": 327.383,
+        "relative": 0.4419
+      },
+      {
+        "hz": 194.609,
+        "relative": 0.1798
+      },
+      {
+        "hz": 129.487,
+        "relative": 0.1277
+      },
+      {
+        "hz": 392.0,
+        "relative": 0.0966
+      },
+      {
+        "hz": 200.552,
+        "relative": 0.0448
+      },
+      {
+        "hz": 59.812,
+        "relative": 0.029
+      }
+    ],
+    "id": "04",
+    "source": "ST-01/FilterBass",
+    "default_volume": "33",
+    "finetune": "00",
+    "loop": "disabled"
+  },
+  {
+    "bytes": 3700,
+    "sha256": "2a652d66bda1afdf618c56c003567d121bc3aa7d95537f261b28b7c4ff3db214",
+    "peak": 112,
+    "rms": 27.16740395838067,
+    "dc": -2.8505405405405404,
+    "rms_quarters": [
+      44.979154330915605,
+      28.680947626547432,
+      9.705445671151617,
+      3.5149103252564773
+    ],
+    "rail_percent": 0.0,
+    "first": -3,
+    "last": -3,
+    "spectral_peaks_at_C4": [
+      {
+        "hz": 128.728,
+        "relative": 1.0
+      },
+      {
+        "hz": 649.962,
+        "relative": 0.95
+      },
+      {
+        "hz": 778.563,
+        "relative": 0.9462
+      },
+      {
+        "hz": 65.249,
+        "relative": 0.8487
+      },
+      {
+        "hz": 388.333,
+        "relative": 0.8432
+      },
+      {
+        "hz": 259.858,
+        "relative": 0.7329
+      },
+      {
+        "hz": 1039.686,
+        "relative": 0.5769
+      },
+      {
+        "hz": 787.415,
+        "relative": 0.5543
+      }
+    ],
+    "id": "05",
+    "source": "ST-02/SynBuz",
+    "default_volume": "2C",
+    "finetune": "00",
+    "loop": "disabled"
+  },
+  {
+    "bytes": 3400,
+    "sha256": "2157ba1c1e8f23e46b1699028142b00a462cde38ed4eb5419fbd1560c81b52af",
+    "peak": 86,
+    "rms": 24.521077368136122,
+    "dc": -0.06147058823529412,
+    "rms_quarters": [
+      22.33454196319867,
+      26.262005657917115,
+      25.008092807776304,
+      24.314677242599064
+    ],
+    "rail_percent": 0.0,
+    "first": 2,
+    "last": -26,
+    "spectral_peaks_at_C4": [
+      {
+        "hz": 524.775,
+        "relative": 1.0
+      },
+      {
+        "hz": 1048.79,
+        "relative": 0.3381
+      },
+      {
+        "hz": 1310.798,
+        "relative": 0.159
+      },
+      {
+        "hz": 1572.933,
+        "relative": 0.1516
+      },
+      {
+        "hz": 786.15,
+        "relative": 0.1398
+      },
+      {
+        "hz": 1834.814,
+        "relative": 0.1179
+      },
+      {
+        "hz": 2096.822,
+        "relative": 0.1178
+      },
+      {
+        "hz": 2607.434,
+        "relative": 0.105
+      }
+    ],
+    "id": "06",
+    "source": "ST-01/KorgFilter",
+    "default_volume": "19",
+    "finetune": "00",
+    "loop": "disabled"
+  },
+  {
+    "bytes": 1200,
+    "sha256": "1cf5ad8105a95256800a39d4641efa3963f575a86127c76152df7dfa93edc1d4",
+    "peak": 119,
+    "rms": 17.032224360507545,
+    "dc": -0.10666666666666667,
+    "rms_quarters": [
+      33.64109589970775,
+      5.1166395221864125,
+      1.5329709716755893,
+      0.3651483716701107
+    ],
+    "rail_percent": 0.0,
+    "first": 0,
+    "last": 0,
+    "spectral_peaks_at_C4": [
+      {
+        "hz": 653.123,
+        "relative": 0.3644
+      },
+      {
+        "hz": 737.087,
+        "relative": 0.3256
+      },
+      {
+        "hz": 714.705,
+        "relative": 0.2917
+      },
+      {
+        "hz": 394.276,
+        "relative": 0.2485
+      },
+      {
+        "hz": 780.839,
+        "relative": 0.2334
+      },
+      {
+        "hz": 854.308,
+        "relative": 0.1806
+      },
+      {
+        "hz": 533.753,
+        "relative": 0.1805
+      },
+      {
+        "hz": 109.507,
+        "relative": 0.1721
+      }
+    ],
+    "id": "07",
+    "source": "ST-01/WoodBlock",
+    "default_volume": "26",
+    "finetune": "00",
+    "loop": "disabled"
+  },
+  {
+    "bytes": 3300,
+    "sha256": "df46e0648dbabfaffe7e76169a1428302ad1bfc687818673919dd1bc15c7cde3",
+    "peak": 128,
+    "rms": 40.35024689196368,
+    "dc": -0.24666666666666667,
+    "rms_quarters": [
+      68.8298913219681,
+      40.594222607298555,
+      10.753096805529601,
+      3.390539422534057
+    ],
+    "rail_percent": 1.5454545454545454,
+    "first": 0,
+    "last": 0,
+    "spectral_peaks_at_C4": [
+      {
+        "hz": 523.763,
+        "relative": 1.0
+      },
+      {
+        "hz": 543.489,
+        "relative": 0.2715
+      },
+      {
+        "hz": 492.15,
+        "relative": 0.2414
+      },
+      {
+        "hz": 3934.544,
+        "relative": 0.1671
+      },
+      {
+        "hz": 305.128,
+        "relative": 0.1635
+      },
+      {
+        "hz": 997.451,
+        "relative": 0.1458
+      },
+      {
+        "hz": 429.683,
+        "relative": 0.1339
+      },
+      {
+        "hz": 2679.638,
+        "relative": 0.1259
+      }
+    ],
+    "id": "08",
+    "source": "ST-02/Cymbal2",
+    "default_volume": "20",
+    "finetune": "00",
+    "loop": "disabled"
+  },
+  {
+    "bytes": 3000,
+    "sha256": "3edee0f9184828eed1a75da2f26773ed52b024aa3f05d1aa64508341953e6509",
+    "peak": 128,
+    "rms": 43.06735422567771,
+    "dc": -0.26033333333333336,
+    "rms_quarters": [
+      68.6830595319302,
+      48.400564734997324,
+      17.979321455494365,
+      5.996221032172402
+    ],
+    "rail_percent": 0.26666666666666666,
+    "first": -50,
+    "last": -1,
+    "spectral_peaks_at_C4": [
+      {
+        "hz": 125.314,
+        "relative": 1.0
+      },
+      {
+        "hz": 373.159,
+        "relative": 0.1464
+      },
+      {
+        "hz": 355.203,
+        "relative": 0.115
+      },
+      {
+        "hz": 238.741,
+        "relative": 0.1088
+      },
+      {
+        "hz": 266.56,
+        "relative": 0.1015
+      },
+      {
+        "hz": 423.74,
+        "relative": 0.0938
+      },
+      {
+        "hz": 224.578,
+        "relative": 0.0819
+      },
+      {
+        "hz": 213.956,
+        "relative": 0.0691
+      }
+    ],
+    "id": "09",
+    "source": "ST-01/ElecTom",
+    "default_volume": "24",
+    "finetune": "00",
+    "loop": "disabled"
+  }
+]
